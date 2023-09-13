@@ -1,0 +1,32 @@
+<script>
+let u = 0;
+while(u<1){
+  	var umur = prompt("\u{1F389} Isi tahun lahirnya dong :D \u{1F389}");
+  	if (umur){
+    
+        if(isNaN(umur) || umur > 1997 || umur < 1995){
+            alert('Boleh kali isi yang bener \u{1F928}');
+        }else{
+        	var therilumur = 2023 - umur;
+          	alert("Happy birthday kak Indri di umur nya yang ke " + therilumur + " \u{1F973}");
+            alert("Semoga kak Indri sehat selaluu, makin di berkati dan makin kuat menghadapi hari hari \u{1F4AA}");
+            alert("Semoga apa yang kak indri inginkan dikabulkan dan tetap menjadi kak indri yang baek \u{1F496}");
+            alert("Terimakasih sudah mau di ganggu selama ini dengan ke galauan Dancer saya HEHE \u{1F92D}");
+			alert("dan yang terakhir semoga ketemu jodohnya \u{1F60F} \u{1F935}");
+          	u++;
+            while (true) {
+                let response = confirm('Tinggal makan makan nih \u{1F60B}');
+                if (response) {
+                    alert('Asek \u{1F46F}');
+                    break;
+                } else {
+                    alert('emang boleh pilih ngga? \u{1F928}');
+                }
+            }
+        }
+      	
+	}else {
+   		alert("Boleh kali di isi dulu \u{1F643}");
+    }
+} 
+</script>
